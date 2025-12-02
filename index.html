@@ -7,14 +7,27 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <!-- Dev 1 -->
-  <body>
-    <nav></nav>
+  <body class="bg-gray-100">
+    <nav
+      class="flex justify-between items-center m-6 px-20 py-3 rounded-full bg-white shadow-lg shadow-[#9379CA0D]"
+    >
+      <img class="logo h-6" src="./image/logo.png" alt="logo" />
+      <section class="button-section flex gap-12">
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Home</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Features</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Pricing</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Contact</a>
+      </section>
+    </nav>
     <main>
-      <section class="hero-section"></section>
-
+      <section class="hero-section">
+        <div>🌈 Acme Productivity App</div>
+        <h1>Boost Your <span class="product">Product</span>ivity</h1>
+        <h3>Streamline your workflow with our all-in-one productivity app.</h3>
+        <button>Start Free Trial</button>
+  
       <!-- Dev 2 -->
-      <section class="font-inter flex justify-center items-center h-[100vh]">
+        <section class="font-inter flex justify-center items-center h-[100vh]">
         <div
           class="features-selection flex flex-row items-center justify-between gap-[20px] w-[1201px] h-[272px] m-[0px auto] p-[0px]"
         >
@@ -75,8 +88,9 @@
         </div>
       </section>
 
-      <!-- Dev 3 -->
-      <section class="contact-section"></section>
+        <!-- Dev 3 -->
+        <section class="contact-section"></section>
+      </section>
     </main>
     <footer></footer>
   </body>
