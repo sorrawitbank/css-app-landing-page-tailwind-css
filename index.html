@@ -8,13 +8,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <!-- Dev 1 -->
-  <body>
-    <nav></nav>
+  <body class="bg-gray-100">
+    <nav
+      class="flex justify-between items-center m-6 px-20 py-3 rounded-full bg-white shadow-lg shadow-[#9379CA0D]"
+    >
+      <img class="logo h-6" src="./image/logo.png" alt="logo" />
+      <section class="button-section flex gap-12">
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Home</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Features</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Pricing</a>
+        <a href="" class="hover:underline hover:text-[#5E44FF]">Contact</a>
+      </section>
+    </nav>
     <main>
-      <section class="hero-section"></section>
-
+      <section class="hero-section flex flex-col items-center gap-6 mt-28">
+        <div
+          class="app-title text-[#5E44FF] font-medium bg-[#563AFF1A] w-max px-5 py-2 rounded-full"
+        >
+          🌈 Acme Productivity App
+        </div>
+        <h1 class="text-[80px] font-bold">
+          Boost Your <span class="product text-[#5E44FF]">Product</span>ivity
+        </h1>
+        <h3 class="text-2xl font-semibold">
+          Streamline your workflow with our all-in-one productivity app.
+        </h3>
+        <button
+          class="text-white font-semibold bg-[#1A1A2C] w-max px-9 py-4 rounded-2xl mt-4"
+        >
+          Start Free Trial
+        </button>
+  
       <!-- Dev 2 -->
-      <section class="font-inter flex justify-center items-center h-[100vh]">
+        <section class="font-inter flex justify-center items-center mt-20">
         <div
           class="features-selection flex flex-row items-center justify-between gap-[20px] w-[1201px] h-[272px] m-[0px auto] p-[0px]"
         >
@@ -75,8 +101,9 @@
         </div>
       </section>
 
-      <!-- Dev 3 -->
-      <section class="contact-section"></section>
+        <!-- Dev 3 -->
+        <section class="contact-section"></section>
+      </section>
     </main>
     <footer></footer>
   </body>
